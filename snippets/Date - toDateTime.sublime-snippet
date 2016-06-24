@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[\$util.toDateTime( ${1:date}${2:, ${3:timezone}} )$0]]></content>
+	<tabTrigger>toDateTime</tabTrigger>
+	<scope>source.velocity</scope>
+</snippet>

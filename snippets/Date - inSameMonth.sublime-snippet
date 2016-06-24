@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[\$util.inSameMonth( ${1:date}, ${2:date} )$0]]></content>
+	<tabTrigger>inSameMonth</tabTrigger>
+	<scope>source.velocity</scope>
+</snippet>

@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[\$util.currentYear$0]]></content>
+	<tabTrigger>currentYear</tabTrigger>
+	<scope>source.velocity</scope>
+</snippet>

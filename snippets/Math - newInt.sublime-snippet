@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[\$math.newInt${1:( ${2:number} )}$0]]></content>
+	<tabTrigger>int</tabTrigger>
+	<scope>source.velocity</scope>
+</snippet>

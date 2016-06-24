@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[\$util.yesterday${1:( ${2:date} )}$0]]></content>
+	<tabTrigger>yesterday</tabTrigger>
+	<scope>source.velocity</scope>
+</snippet>

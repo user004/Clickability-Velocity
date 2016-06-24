@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[\$string.toUpperCase( ${1:string} )$0]]></content>
+	<tabTrigger>toUpperCase</tabTrigger>
+	<scope>source.velocity</scope>
+</snippet>

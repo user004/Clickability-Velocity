@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[\${util.isNull( ${1:object} )}$0]]></content>
+	<tabTrigger>isNull</tabTrigger>
+	<scope>source.velocity</scope>
+</snippet>

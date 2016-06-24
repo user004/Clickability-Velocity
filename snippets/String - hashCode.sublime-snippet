@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[\$string.hashCode( ${1:string} )$0]]></content>
+	<tabTrigger>hashCode</tabTrigger>
+	<scope>source.velocity</scope>
+</snippet>

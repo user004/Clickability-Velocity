@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[\$util.tomorrow${1:( ${2:date} )}$0]]></content>
+	<tabTrigger>tomorrow</tabTrigger>
+	<scope>source.velocity</scope>
+</snippet>

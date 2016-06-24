@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[\$util.isAfter( ${1:date}, ${2:date} )$0]]></content>
+	<tabTrigger>isAfter</tabTrigger>
+	<scope>source.velocity</scope>
+</snippet>

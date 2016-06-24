@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[\$string.removeSpaces( ${1:string} )$0]]></content>
+	<tabTrigger>removeSpaces</tabTrigger>
+	<scope>source.velocity</scope>
+</snippet>

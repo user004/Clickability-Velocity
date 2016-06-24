@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[#if( ${1:condition} )##
+	${2:## statement}$0
+#end##]]></content>
+	<tabTrigger>if</tabTrigger>
+	<scope>source.velocity</scope>
+</snippet>

@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[\$util.newObject$0]]></content>
+	<tabTrigger>obj</tabTrigger>
+	<scope>source.velocity</scope>
+</snippet>

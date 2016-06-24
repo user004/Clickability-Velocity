@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[\$util.isEqualTime( ${1:date}, ${2:date} )$0]]></content>
+	<tabTrigger>isEqualTime</tabTrigger>
+	<scope>source.velocity</scope>
+</snippet>

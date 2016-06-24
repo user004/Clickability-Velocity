@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[\$cms.link${1:( ${2:'${3:domain}', }${4:'${5:name/path}', }${6:${7:index}} )}$0]]></content>
+	<tabTrigger>link</tabTrigger>
+	<scope>source.velocity</scope>
+</snippet>

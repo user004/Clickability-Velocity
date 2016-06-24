@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[\$string.endsWith( ${1:string}, ${2:suffix} )$0]]></content>
+	<tabTrigger>endsWith</tabTrigger>
+	<scope>source.velocity</scope>
+</snippet>

@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[\$string.indexOf( ${1:string}, ${2:substring}${3:, ${4:start}} )$0]]></content>
+	<tabTrigger>indexOf</tabTrigger>
+	<scope>source.velocity</scope>
+</snippet>

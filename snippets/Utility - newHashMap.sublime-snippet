@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[\$util.newHashMap$0]]></content>
+	<tabTrigger>hm</tabTrigger>
+	<scope>source.velocity</scope>
+</snippet>

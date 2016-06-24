@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[\$util.newArrayList$0]]></content>
+	<tabTrigger>al</tabTrigger>
+	<scope>source.velocity</scope>
+</snippet>

@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[\$string.trim( ${1:string} )$0]]></content>
+	<tabTrigger>trim</tabTrigger>
+	<scope>source.velocity</scope>
+</snippet>

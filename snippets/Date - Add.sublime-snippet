@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[\$util.add( ${1:date}, ${2:field}, ${3:amount} )$0]]></content>
+	<tabTrigger>add</tabTrigger>
+	<scope>source.velocity</scope>
+</snippet>

@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[\$string.equals${1:IgnoreCase}( ${2:string}, ${3:string} )$0]]></content>
+	<tabTrigger>equals</tabTrigger>
+	<scope>source.velocity</scope>
+</snippet>

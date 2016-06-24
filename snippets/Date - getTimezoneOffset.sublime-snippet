@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[getTimezoneOffset()$0]]></content>
+	<tabTrigger>getTimezoneOffset</tabTrigger>
+	<scope>source.velocity</scope>
+</snippet>

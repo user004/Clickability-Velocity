@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[\$string.splitString( ${1:string}, ${2:separator}${3:, ${4:trimResults}${5:, ${6:omitEmptyStrings}}} )$0]]></content>
+	<tabTrigger>splitString</tabTrigger>
+	<scope>source.velocity</scope>
+</snippet>

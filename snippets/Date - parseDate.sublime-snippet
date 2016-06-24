@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[\$util.parseDate( ${1:date}, ${2:format} )$0]]></content>
+	<tabTrigger>parseDate</tabTrigger>
+	<scope>source.velocity</scope>
+</snippet>

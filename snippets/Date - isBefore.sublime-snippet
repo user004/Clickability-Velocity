@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[\$util.isBefore( ${1:date}, ${2:date} )$0]]></content>
+	<tabTrigger>isBefore</tabTrigger>
+	<scope>source.velocity</scope>
+</snippet>

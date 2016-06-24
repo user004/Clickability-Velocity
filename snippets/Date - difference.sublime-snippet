@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[\$dateComparisonTool.difference( ${1:date}, ${2:date} )$0]]></content>
+	<tabTrigger>difference</tabTrigger>
+	<scope>source.velocity</scope>
+</snippet>

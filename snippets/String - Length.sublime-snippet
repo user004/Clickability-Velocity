@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[\$string.length( ${1:string} )$0]]></content>
+	<tabTrigger>length</tabTrigger>
+	<scope>source.velocity</scope>
+</snippet>

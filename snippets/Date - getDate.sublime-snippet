@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[getDate()$0]]></content>
+	<tabTrigger>getDate</tabTrigger>
+	<scope>source.velocity</scope>
+</snippet>

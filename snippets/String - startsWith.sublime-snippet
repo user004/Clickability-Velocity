@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[\$string.startsWith( ${1:string}, ${2:prefix} )$0]]></content>
+	<tabTrigger>startsWith</tabTrigger>
+	<scope>source.velocity</scope>
+</snippet>
