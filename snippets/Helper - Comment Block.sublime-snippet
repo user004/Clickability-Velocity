@@ -3,9 +3,8 @@
 ${1:Company Name}
 Copyright, ${2:Year}
 Title: ${3:Template Name}
-Authors: ${4:Your Name}
 ========================================================================== *###
 $0]]></content>
-	<tabTrigger>**</tabTrigger>
+	<tabTrigger>#*</tabTrigger>
 	<scope>source.velocity</scope>
 </snippet>

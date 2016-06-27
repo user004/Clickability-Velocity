@@ -1,7 +1,5 @@
 <snippet>
-	<content><![CDATA[
-.contains( ${1:object} )$0
-]]></content>
+	<content><![CDATA[.contains( ${1:object} )$0]]></content>
 	<tabTrigger>.cont</tabTrigger>
 	<scope>source.velocity</scope>
 </snippet>

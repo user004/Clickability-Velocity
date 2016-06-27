@@ -1,5 +1,5 @@
 <snippet>
 	<content><![CDATA[\$math.random$0]]></content>
-	<tabTrigger>random</tabTrigger>
+	<tabTrigger>rand</tabTrigger>
 	<scope>source.velocity</scope>
 </snippet>
