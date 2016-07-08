@@ -1,5 +1,5 @@
 <snippet>
-	<content><![CDATA[\$cms.filteredLinks( '${1:content type}'${2:, '${3:domain}'}${4:, '${5:name/path}'}${6:, ${7:index}}${8:, ${9:size}} )$0]]></content>
+	<content><![CDATA[\$cms.filteredLinks( ${1:type}${3:, ${4:name/path}}${5:, ${6:index}${7:, ${8:size}}} )$0]]></content>
 	<tabTrigger>flinks</tabTrigger>
 	<scope>source.velocity</scope>
 </snippet>

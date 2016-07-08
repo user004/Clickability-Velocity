@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[\$cms.include( ${1:name/ID} )$0]]></content>
+	<tabTrigger>include</tabTrigger>
+	<scope>source.velocity</scope>
+</snippet>

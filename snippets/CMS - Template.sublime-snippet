@@ -1,5 +1,5 @@
 <snippet>
-	<content><![CDATA[\${cms.template( '${1:name}' )}##$0]]></content>
+	<content><![CDATA[\$cms.template( ${1:name} )$0]]></content>
 	<tabTrigger>template</tabTrigger>
 	<scope>source.velocity</scope>
 </snippet>

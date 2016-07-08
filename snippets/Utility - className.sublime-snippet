@@ -1,5 +1,5 @@
 <snippet>
-	<content><![CDATA[\${util.className( ${1:object} )}$0]]></content>
+	<content><![CDATA[\$util.className( ${1:object} )$0]]></content>
 	<tabTrigger>className</tabTrigger>
 	<scope>source.velocity</scope>
 </snippet>

@@ -2,6 +2,8 @@
 
 Based on [jampow's Velocty package](https://github.com/jampow/velocity-sublime), but modified to use [Clickability](http://www.clickability.com/)'s custom functions and version of Velocity. Somewhat built using the Template Language Reference Guide.
 
+Less/Greater than means `<optional>`
+
 ## Snippets
 
 ### ArrayLists
@@ -25,16 +27,16 @@ Based on [jampow's Velocty package](https://github.com/jampow/velocity-sublime),
 
 | Shortcut | Output |
 | --- | --- |
+| `content` | `$cms.content<( id )>` |
+| `link` | `$cms.link<( <name/path><, index> )>` |
+| `links` | `$cms.links<( <name/path><, index><, size> )>` |
+| `flinks` | `$cms.filteredLinks( type<, name/path><, index><, size> )` |
+| `clinks` | `$cms.categorizedLinks( categorization, 'name/path', index, size )` |
 | `cat` | `$cms.getCategorization( [ 'sets' ], [ 'categories' ]<, match all> )` |
-| `clinks` | `$cms.categorizedLinks( categorization, 'domain', 'name/path', index, size )` |
-| `cont` | `$cms.content( id )` |
-| `flinks` | `$cms.filteredLinks( 'content type', 'domain', 'name/path', index, size )` |
-| `link` | `$cms.link( 'domain', 'name/path', index )` |
-| `links` | `$cms.links( 'domain', 'name/path', index, size )` |
-| `parent` | `cms.parent( 'domain', 'name/path/object' )` |
-| `temp` | `${cms.template( 'name' )}##` |
-| `parent` | `$cms.parent( '(string/object) ID/domain/name/path/section', '(int/string) ID/name/path' )` |
-| `wss` | `$cms.websiteSection( 'domain', 'id/name/path' )` |
+| `wss` | `$cms.websiteSection<( name/path/id )>` |
+| `parent` | `cms.parent<( name/path/object )>` |
+| `template` | `$cms.template( name )` |
+| `include` | `$cms.include( name )` |
 
 ### Dates
 
@@ -74,30 +76,27 @@ Based on [jampow's Velocty package](https://github.com/jampow/velocity-sublime),
 | Shortcut | Output |
 | --- | --- |
 | `set` | `#set( $name = expression )` |
-| `for` |
+| `end` | `#end##` |
+
+`for`:
 ```
 #foreach( item in itemList )##
 	## statement
 #end##
 ```
-| Shortcut | Output |
-| --- | --- |
-| `if` |
+
+`if`:
 ```
 #if( condition )##
 	## statement
 #end##
 ```
-| Shortcut | Output |
-| --- | --- |
-| `else` |
+
+`else`:
 ```
-#else[if( condition )]##
+#else<if( condition )>##
 	## statement
 ```
-| Shortcut | Output |
-| --- | --- |
-| `end` | `#end##` |
 
 ### HashMaps
 
@@ -109,9 +108,10 @@ Based on [jampow's Velocty package](https://github.com/jampow/velocity-sublime),
 
 | Shortcut | Output |
 | --- | --- |
-| `$` | `$[!]{variable}` |
+| `$` | `$<!>{variable}` |
 | `vc` | `$velocityCount` |
-| `#*` |
+
+`#*`:
 ```
 #* ============================================================================
 Company Name
@@ -142,7 +142,7 @@ Title: Template Name
 
 | Shortcut | Output |
 | --- | --- |
-| `param` | `$req.param( 'parameter' )` |
+| `param` | `$req.param( parameter )` |
 
 ### Strings
 
@@ -150,31 +150,27 @@ Title: Template Name
 | --- | --- |
 | `charAt` | `$string.charAt( string, index )` |
 | `endsWith` | `$string.endsWith( string, suffix )` |
-| `equals` | `$string.equals[IgnoreCase]( string )` |
+| `equals` | `$string.equals<IgnoreCase>( string )` |
 | `hashCode` | `$string.hashCode( string )` |
-| `indexOf` | `$string.indexOf( string, substring[, start] )` |
-| `lastIndexOf` | `$string.lastIndexOf( string, substring[, start] )` |
+| `indexOf` | `$string.indexOf( string, substring<, start> )` |
+| `lastIndexOf` | `$string.lastIndexOf( string, substring<, start> )` |
 | `length` | `$string.length( string )` |
 | `removeSpaces` | `$string.removeSpaces( string )` |
 | `replaceAll` | `$string.replaceAll( string, find, replace )` |
 | `replaceFirst` | `$string.replaceFirst( string, find, replace )` |
-| `splitOnRegex` | `$string.splitOnRegex( string, separatorRegex[, trimResults][, omitEmptyStrings] )` |
-| `splitString` | `$string.splitString( string, separator[, trimResults][, omitEmptyStrings )` |
+| `splitOnRegex` | `$string.splitOnRegex( string, separatorRegex<, trimResults><, omitEmptyStrings> )` |
+| `splitString` | `$string.splitString( string, separator<, trimResults><, omitEmptyStrings> )` |
 | `startsWith` | `$string.startsWith( string, prefix )` |
 | `substring` | `$string.substring( string, start, end )` |
 | `toLowerCase` | `$string.toLowerCase( string )` |
 | `toUpperCase` | `$string.toUpperCase( string )` |
 | `trim` | `$string.trim( string )` |
 
-### SQL
-
->TODO: Do we use these? There are a couple examples in the docs...
-
 ### Utilities
 
 | Shortcut | Output |
 | --- | --- |
 | `obj` | `$util.newObject` |
-| `type` | `${util.type( object )}` |
-| `className` | `${util.className( object )}` |
-| `isNull` | `${util.isNull( object )}` |
+| `type` | `$util.type( object )` |
+| `className` | `$util.className( object )` |
+| `isNull` | `$util.isNull( object )` |
