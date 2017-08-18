@@ -1,4 +1,4 @@
-# Clickabilty Velocity
+# Clickability Velocity
 
 Based on [jampow's Velocty package](https://github.com/jampow/velocity-sublime), but modified to use [Clickability](http://www.clickability.com/)'s custom functions and version of Velocity. Somewhat built using the Template Language Reference Guide.
 
@@ -37,6 +37,17 @@ Less/Greater than means `<optional>`
 | `parent` | `cms.parent<( name/path/object )>` |
 | `template` | `$cms.template( name )` |
 | `include` | `$cms.include( name )` |
+
+### Media
+
+| Shortcut | Output |
+| --- | --- |
+| `media` | `$cms.media( name/id<, type> )` |
+| `tag` | `$util.tag( media<, show attributes><, extra info> )` |
+| `linkedTag` | `$util.linkedTag( media<, show attributes><, extra info> )` |
+| `unlinkedTag` | `$util.unlinkedTag( media<, show attributes><, extra info> )` |
+| `resizeImageTag` | `$util.resizeImageTag( media<, percent/width><, height><, show attributes><, extra info> )` |
+| `unlinkedResizeImageTag` | `$util.unlinkedResizeImageTag( media<, percent/width><, height><, show attributes><, extra info> )` |
 
 ### Dates
 
@@ -174,3 +185,10 @@ Title: Template Name
 | `type` | `$util.type( object )` |
 | `className` | `$util.className( object )` |
 | `isNull` | `$util.isNull( object )` |
+
+### Debugging
+
+| Shortcut | Output |
+| --- | --- |
+| `log` | `$codeDebug.log( string )` |
+| `watchpoint` | `$codeDebug.watchpoint<( string/arrayList )>` |

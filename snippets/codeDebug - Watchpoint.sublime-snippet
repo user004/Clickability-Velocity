@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[\$codeDebug.watchpoint(${1: ${2:string/arrayList} })$0]]></content>
+	<tabTrigger>watchpoint</tabTrigger>
+	<scope>source.velocity</scope>
+</snippet>

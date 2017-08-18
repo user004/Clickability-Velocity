@@ -1,0 +1,5 @@
+<snippet>
+<content><![CDATA[\$util.resizeImageTag( ${1:media}${2:, ${3:percent/width}${4:, ${5:height}}}${6:, ${7:show-attributes}${8:, ${9:extra-info}}} )$0]]></content>
+	<tabTrigger>resizeImageTag</tabTrigger>
+	<scope>source.velocity</scope>
+</snippet>
