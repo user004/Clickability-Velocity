@@ -1,5 +1,5 @@
 <snippet>
-<content><![CDATA[\$cms.media( ${1:name/id} )$0]]></content>
+	<content><![CDATA[\$cms.media( ${1:name/id} )$0]]></content>
 	<tabTrigger>media</tabTrigger>
 	<scope>source.velocity</scope>
 </snippet>

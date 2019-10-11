@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[#if( \$string.indexOf( ${1:string}, '${2:find}' ) != -1 )##
+	#set( ${1:string} = \$string.replaceFirst( ${1:string}, '${2:find}', '${3:replace}' ) )##$0
+#end##]]></content>
+	<tabTrigger>checkreplace</tabTrigger>
+	<scope>source.velocity</scope>
+</snippet>
